@@ -30,8 +30,8 @@ for (let index = 0; index < counter; index++) {
                 crash.play();
                 break;
             case 'l':
-                var kick = new Audio("sounds/kick.mp3");
-                kick.play();
+                var kick_bass = new Audio("sounds/kick-bass.mp3");
+                kick_bass.play();
                 break;
 
             default:

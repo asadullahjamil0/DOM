@@ -4,22 +4,27 @@
     width: 900px;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding-left: 12px;
     margin: 5px;
-    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
 }
 
 .image img {
     width: 200px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 .text h1,
 p {
     padding: 2px 0px;
+    color: white;
 }
 
 .image {
     position: relative;
+    margin-right: 10px;
 }
 
 .capsule {

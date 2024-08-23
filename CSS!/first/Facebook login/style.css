@@ -60,6 +60,10 @@ body {
     border-radius: 8px;
 }
 
+input[type="password"]:focus-visible {
+    border: 2px solid #0866ff;
+}
+
 .loginBtn {
     color: white;
     background-color: #0866ff;
@@ -81,7 +85,7 @@ body {
     font-weight: 700;
 }
 
-hr{
+hr {
     border: none;
     background-color: #7f7f7f59;
     width: 90%;

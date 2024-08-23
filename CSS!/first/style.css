@@ -6,6 +6,7 @@
     font-family: 'poppins';
 }
 
+/* 
 .container {
     height: 100vh;
     width: 100vw;
@@ -39,7 +40,7 @@ h3 {
     word-spacing: 23px;
     letter-spacing: 3px;
     text-indent: 45px;
-    text-decoration:overline;
+    text-decoration: overline;
     text-shadow: 1px 1px 2px black;
     text-align: center;
 }
@@ -54,30 +55,36 @@ p {
     display: inline-table;
     padding: 25px;
     font-size: 23px;
-}
+} */
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    }
-    
-    h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    }
-    
-    table {
-    width: 50%;
-    margin: 0 auto;
+}
+
+.timeTable {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin: 0px auto;
     border-collapse: collapse;
-    }
-    
-    th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-    }
-    
-    th {
-    background-color: #f2f2f2;
-    }
+}
+
+caption h1 {
+    margin-bottom: 30px;
+    color: #ff0d0dbd;
+}
+
+table th {
+    background-color: #34343442;
+}
+
+table td,
+th {
+    border: 2px solid #8a8383;
+    padding: 20px;
+}

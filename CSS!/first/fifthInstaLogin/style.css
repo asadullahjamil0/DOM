@@ -1,0 +1,108 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    height: 110vh;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    flex-direction: column;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 12px;
+}
+
+.card1 {
+    height: 60%;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.same {
+    width: 75%;
+    height: 38px;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+}
+
+
+.card1 button {
+    color: white;
+    background-color: #0897ffad;
+    font-size: 17px;
+    padding: 9px 12px;
+    width: 78%;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+
+.fbLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.fbLogo p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #004170;
+}
+
+.same:active {
+    border: 1px solid black;
+}
+
+.card2 {
+    height: 10%;
+    width: 28%;
+    border: 2px solid;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    border: 1px solid #dbdbdb;
+}
+
+.card3 {
+    height: 13%;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.imges img {
+    height: 45px;
+    width: 140px;
+}

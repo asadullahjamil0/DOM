@@ -155,25 +155,24 @@ h3 {
 }
 
 .slider {
-    height: 100vh;
+    height: 130vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0px auto;
-    width: 48%;
+    width: 70%;
     overflow: hidden;
 }
 
 .images {
     display: flex;
-    width: 100%;
 }
 
 
 .images img {
-    height: 400px;
     width: 100%;
+    height: auto;
     transition: 0.5s all ease;
 }
 
@@ -187,6 +186,7 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 4px;
+    z-index: 23;
 }
 
 .dots label {

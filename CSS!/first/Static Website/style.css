@@ -33,6 +33,10 @@ h3 {
     color: white;
 }
 
+.menu a:hover{
+    color: rgb(198, 198, 198);
+}
+
 .btn {
     margin-right: 65px;
 }
@@ -75,7 +79,6 @@ h3 {
     width: 60%;
     margin: 0px auto;
     gap: 20px;
-    border-bottom: 2px solid black;
 }
 
 .headSame {
@@ -167,6 +170,7 @@ h3 {
 
 .images {
     display: flex;
+    height: 450px;
 }
 
 
@@ -290,6 +294,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    background-color: rgba(139, 139, 139, 0.52);
 }
 
 .brandDetail {

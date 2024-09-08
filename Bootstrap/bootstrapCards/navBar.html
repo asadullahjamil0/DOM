@@ -8,28 +8,45 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>ShowShank</title>
     <style>
+        body {
+            background-image: url("2151478142.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            height: 100vh;
+        }
 
+        .navbar-nav .nav-item {
+            margin-left: 0.5rem;
+        }
+
+        @media (max-width: 767.98px) {
+            .navbar-collapse.show .navbar-nav .nav-item {
+                margin-left: 1rem;
+            }
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="#" class="navbar-brand ms-3">ShowShank</a>
-
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+        <a class="navbar-brand ms-3" href="#">ShowShank</a>
+        <button style="margin-right: 1rem;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#myMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="myMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
             </ul>
         </div>
     </nav>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

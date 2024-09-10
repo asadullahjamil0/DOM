@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .container {
+            /* height: 150vh; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .table-wrapper {
+            border: 1px solid #dee2e6;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            width: 100%;
+            background-color: #212529;
+        }
+
+        .table {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="table-wrapper">
+
+
+            <table class="table table-sm table-striped table-dark h-75 border rounded">
+                <thead>
+                    <tr class="table-primary ">
+                        <th scope="col">Sr.No</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Profession</th>
+                        <th scope="col">Education</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Country</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>Bilal</td>
+                        <td>Software Engineer</td>
+                        <td>Computer Science</td>
+                        <td>Lahore</td>
+                        <td>Pakistan</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Paul</td>
+                        <td>Media</td>
+                        <td>Mass Communication</td>
+                        <td>Houston</td>
+                        <td>United States of America</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Abu-Nasr</td>
+                        <td>Research Analyst</td>
+                        <td>Political Science</td>
+                        <td>Jeddah</td>
+                        <td>Saudi Arabia</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>Aisha</td>
+                        <td>Architect</td>
+                        <td>Architecture</td>
+                        <td>Dubai</td>
+                        <td>United Arab Emirates</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>John</td>
+                        <td>Graphic Designer</td>
+                        <td>Design</td>
+                        <td>Toronto</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td>Maria</td>
+                        <td>Doctor</td>
+                        <td>Medicine</td>
+                        <td>Madrid</td>
+                        <td>Spain</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td>Hassan</td>
+                        <td>Data Scientist</td>
+                        <td>Statistics</td>
+                        <td>Beirut</td>
+                        <td>Lebanon</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td>Emma</td>
+                        <td>Biologist</td>
+                        <td>Biology</td>
+                        <td>Berlin</td>
+                        <td>Germany</td>
+                    </tr>
+
+                    <tr>
+                        <th>9</th>
+                        <td>Lucas</td>
+                        <td>Engineer</td>
+                        <td>Mechanical Engineering</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td>Olivia</td>
+                        <td>Artist</td>
+                        <td>Fine Arts</td>
+                        <td>New York</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>11</th>
+                        <td>Hiroshi</td>
+                        <td>Software Developer</td>
+                        <td>Computer Science</td>
+                        <td>Tokyo</td>
+                        <td>Japan</td>
+                    </tr>
+                    <tr>
+                        <th>12</th>
+                        <td>Maria</td>
+                        <td>Architect</td>
+                        <td>Architecture</td>
+                        <td>Barcelona</td>
+                        <td>Spain</td>
+                    </tr>
+                    <tr>
+                        <th>13</th>
+                        <td>John</td>
+                        <td>Chef</td>
+                        <td>Culinary Arts</td>
+                        <td>Rome</td>
+                        <td>Italy</td>
+                    </tr>
+                    <tr>
+                        <th>14</th>
+                        <td>Chloe</td>
+                        <td>Journalist</td>
+                        <td>Journalism</td>
+                        <td>London</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <th>15</th>
+                        <td>Raj</td>
+                        <td>Marketing Manager</td>
+                        <td>Business Administration</td>
+                        <td>New Delhi</td>
+                        <td>India</td>
+                    </tr>
+                    <tr>
+                        <th>16</th>
+                        <td>Sofia</td>
+                        <td>Financial Analyst</td>
+                        <td>Finance</td>
+                        <td>Buenos Aires</td>
+                        <td>Argentina</td>
+                    </tr>
+                    <tr>
+                        <th>17</th>
+                        <td>Michael</td>
+                        <td>Mechanical Engineer</td>
+                        <td>Mechanical Engineering</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <th>18</th>
+                        <td>Amanda</td>
+                        <td>Physicist</td>
+                        <td>Physics</td>
+                        <td>Vienna</td>
+                        <td>Austria</td>
+                    </tr>
+                    <tr>
+                        <th>19</th>
+                        <td>Jin</td>
+                        <td>Graphic Designer</td>
+                        <td>Visual Arts</td>
+                        <td>Seoul</td>
+                        <td>South Korea</td>
+                    </tr>
+                    <tr>
+                        <th>20</th>
+                        <td>Nina</td>
+                        <td>Environmental Scientist</td>
+                        <td>Environmental Science</td>
+                        <td>Zurich</td>
+                        <td>Switzerland</td>
+                    </tr>
+                    <tr>
+                        <th>21</th>
+                        <td>Oliver</td>
+                        <td>Product Manager</td>
+                        <td>Product Management</td>
+                        <td>San Francisco</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>22</th>
+                        <td>Elena</td>
+                        <td>Clinical Psychologist</td>
+                        <td>Psychology</td>
+                        <td>Toronto</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <th>23</th>
+                        <td>Antonio</td>
+                        <td>Chef</td>
+                        <td>Culinary Arts</td>
+                        <td>Lisbon</td>
+                        <td>Portugal</td>
+                    </tr>
+                    <tr>
+                        <th>24</th>
+                        <td>Yuki</td>
+                        <td>Translator</td>
+                        <td>Languages</td>
+                        <td>Osaka</td>
+                        <td>Japan</td>
+                    </tr>
+
+                    <tr>
+                        <th>25</th>
+                        <td>Emma</td>
+                        <td>Veterinarian</td>
+                        <td>Veterinary Medicine</td>
+                        <td>Auckland</td>
+                        <td>New Zealand</td>
+                    </tr>
+                    <tr>
+                        <th>26</th>
+                        <td>Leonardo</td>
+                        <td>Urban Planner</td>
+                        <td>Urban Studies</td>
+                        <td>São Paulo</td>
+                        <td>Brazil</td>
+                    </tr>
+                    <tr>
+                        <th>27</th>
+                        <td>Lina</td>
+                        <td>Biochemist</td>
+                        <td>Biochemistry</td>
+                        <td>Vienna</td>
+                        <td>Austria</td>
+                    </tr>
+                    <tr>
+                        <th>28</th>
+                        <td>David</td>
+                        <td>Economist</td>
+                        <td>Economics</td>
+                        <td>Stockholm</td>
+                        <td>Sweden</td>
+                    </tr>
+                    <tr>
+                        <th>29</th>
+                        <td>Isabella</td>
+                        <td>Art Curator</td>
+                        <td>Art History</td>
+                        <td>Rome</td>
+                        <td>Italy</td>
+                    </tr>
+                    <tr>
+                        <th>30</th>
+                        <td>Alex</td>
+                        <td>Product Designer</td>
+                        <td>Industrial Design</td>
+                        <td>Barcelona</td>
+                        <td>Spain</td>
+                    </tr>
+                    <tr>
+                        <th>31</th>
+                        <td>Fatima</td>
+                        <td>Human Resources Manager</td>
+                        <td>Human Resource Management</td>
+                        <td>Dubai</td>
+                        <td>United Arab Emirates</td>
+                    </tr>
+                    <tr>
+                        <th>32</th>
+                        <td>Henry</td>
+                        <td>Pharmacist</td>
+                        <td>Pharmacy</td>
+                        <td>Amsterdam</td>
+                        <td>Netherlands</td>
+                    </tr>
+                    <tr>
+                        <th>33</th>
+                        <td>Grace</td>
+                        <td>Marketing Specialist</td>
+                        <td>Marketing</td>
+                        <td>Berlin</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <th>34</th>
+                        <td>Jack</td>
+                        <td>Content Writer</td>
+                        <td>Journalism</td>
+                        <td>Toronto</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <th>35</th>
+                        <td>Avery</td>
+                        <td>Financial Advisor</td>
+                        <td>Finance</td>
+                        <td>Melbourne</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <th>36</th>
+                        <td>Leo</td>
+                        <td>Construction Manager</td>
+                        <td>Civil Engineering</td>
+                        <td>Vienna</td>
+                        <td>Austria</td>
+                    </tr>
+                    <tr>
+                        <th>37</th>
+                        <td>Zoey</td>
+                        <td>Event Planner</td>
+                        <td>Event Management</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                    </tr>
+                    <tr>
+                        <th>38</th>
+                        <td>Elijah</td>
+                        <td>Cybersecurity Analyst</td>
+                        <td>Computer Science</td>
+                        <td>San Francisco</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>39</th>
+                        <td>Harper</td>
+                        <td>Interior Designer</td>
+                        <td>Interior Design</td>
+                        <td>Zurich</td>
+                        <td>Switzerland</td>
+                    </tr>
+                    <tr>
+                        <th>40</th>
+                        <td>Samuel</td>
+                        <td>Logistics Coordinator</td>
+                        <td>Supply Chain Management</td>
+                        <td>Hong Kong</td>
+                        <td>China</td>
+                    </tr>
+                    <tr>
+                        <th>41</th>
+                        <td>Chloe</td>
+                        <td>Research Scientist</td>
+                        <td>Physics</td>
+                        <td>Zurich</td>
+                        <td>Switzerland</td>
+                    </tr>
+                    <tr>
+                        <th>42</th>
+                        <td>Max</td>
+                        <td>Business Consultant</td>
+                        <td>Business Management</td>
+                        <td>Seattle</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>43</th>
+                        <td>Riley</td>
+                        <td>Travel Blogger</td>
+                        <td>Communications</td>
+                        <td>Lisbon</td>
+                        <td>Portugal</td>
+                    </tr>
+                    <tr>
+                        <th>44</th>
+                        <td>Layla</td>
+                        <td>Social Media Manager</td>
+                        <td>Marketing</td>
+                        <td>Oslo</td>
+                        <td>Norway</td>
+                    </tr>
+                    <tr>
+                        <th>45</th>
+                        <td>Daniel</td>
+                        <td>Mechanical Technician</td>
+                        <td>Mechanical Engineering</td>
+                        <td>Madrid</td>
+                        <td>Spain</td>
+                    </tr>
+                    <tr>
+                        <th>46</th>
+                        <td>Ella</td>
+                        <td>Music Producer</td>
+                        <td>Music Production</td>
+                        <td>Nashville</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>47</th>
+                        <td>Owen</td>
+                        <td>Public Relations Specialist</td>
+                        <td>Public Relations</td>
+                        <td>Brussels</td>
+                        <td>Belgium</td>
+                    </tr>
+                    <tr>
+                        <th>48</th>
+                        <td>Samantha</td>
+                        <td>Product Developer</td>
+                        <td>Product Design</td>
+                        <td>Chicago</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>49</th>
+                        <td>Ryan</td>
+                        <td>Operations Manager</td>
+                        <td>Business Management</td>
+                        <td>Toronto</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <th>50</th>
+                        <td>Natalie</td>
+                        <td>Human Rights Lawyer</td>
+                        <td>Law</td>
+                        <td>Geneva</td>
+                        <td>Switzerland</td>
+                    </tr>
+                    <tr>
+                        <th>51</th>
+                        <td>Benjamin</td>
+                        <td>Database Administrator</td>
+                        <td>Computer Science</td>
+                        <td>Berlin</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <th>52</th>
+                        <td>Ariana</td>
+                        <td>Marketing Director</td>
+                        <td>Marketing</td>
+                        <td>London</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <th>53</th>
+                        <td>Jackson</td>
+                        <td>Data Analyst</td>
+                        <td>Statistics</td>
+                        <td>Dallas</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>54</th>
+                        <td>Emily</td>
+                        <td>Healthcare Administrator</td>
+                        <td>Healthcare Management</td>
+                        <td>Chicago</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>55</th>
+                        <td>Jacob</td>
+                        <td>Environmental Consultant</td>
+                        <td>Environmental Science</td>
+                        <td>Vancouver</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <th>56</th>
+                        <td>Amelia</td>
+                        <td>Clinical Research Coordinator</td>
+                        <td>Clinical Research</td>
+                        <td>Los Angeles</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>57</th>
+                        <td>Henry</td>
+                        <td>Financial Planner</td>
+                        <td>Finance</td>
+                        <td>Melbourne</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <th>58</th>
+                        <td>Sarah</td>
+                        <td>Journalist</td>
+                        <td>Journalism</td>
+                        <td>Toronto</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <th>59</th>
+                        <td>John</td>
+                        <td>IT Consultant</td>
+                        <td>Information Technology</td>
+                        <td>San Jose</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <th>60</th>
+                        <td>Olivia</td>
+                        <td>Speech Therapist</td>
+                        <td>Speech Therapy</td>
+                        <td>San Diego</td>
+                        <td>USA</td>
+                    </tr>
+                    
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

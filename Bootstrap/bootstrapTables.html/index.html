@@ -85,6 +85,15 @@
                 flex-direction: row;
             }
         }
+
+        .headerName {
+            display: flex;
+            justify-content: center;
+            padding: 8px 0px 20px 0px;
+            align-items: center;
+            color: black;
+            flex-direction: column;
+        }
     </style>
 </head>
 
@@ -763,7 +772,10 @@
 
     <div class="container fd-2" style="height: 550px;">
         <div class="row fd-1 d-flex align-items-center">
-            <h3>Responsive-Align</h3>
+            <div style="color: black;" class="headerName">
+                <a style="color: black; font-size: 30px;" href="#">Responseive-align</a>
+                <p>This is about responsive-align</p>
+            </div>
             <div class="col-md-6">
                 <h1>Responsive left-aligned hero with image</h1>
                 <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular
@@ -781,9 +793,13 @@
     </div>
 
 
-    <div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
-        <h1>Slider</h1>
-        <div style="background-color: rgb(155, 155, 155); height: 345px;" class="carousel-inner">
+    <div id="carouselExampleControls" class="carousel slide mb-5"
+        data-ride="carousel">
+        <div class="headerName">
+            <a style="color: black; font-size: 30px;" href="#">Slider</a>
+            <p>This is about slider</p>
+        </div>
+        <div style="background-color: rgb(155, 155, 155);height: 345px;" class="carousel-inner">
             <div class="carousel-item active">
                 <div style="width: 50vw; margin: auto;" class="section">
                     <div style="height: 400px;" class="row">
